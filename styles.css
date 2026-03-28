@@ -181,7 +181,7 @@ h1, h2, h3, h4 {
     text-decoration: underline;
 }
 
-.why-choose {
+.why-choose, .who-weWork {
     padding: 80px 40px;
     background-color: #062b4f;
     color: white;
