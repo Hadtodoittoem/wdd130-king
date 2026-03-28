@@ -376,3 +376,11 @@ h1, h2, h3, h4 {
     color: #f2c94c;
 }
 
+@media (max-width: 768px) {
+    .nav, .nav-links {flex-direction: column;}
+    
+    .services-grid, 
+    .why-grid, 
+    .process-grid, 
+    .footer-grid {grid-template-columns: 1fr;}
+}
