@@ -83,6 +83,16 @@ h1, h2, h3, h4 {
     padding: 110px 40px;
 }
 
+.home .hero {
+    background:
+    linear-gradient(#0a3a66b3, #0a3a66b3),
+    url("images/IMG_0398.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 110px 40px;
+}
+
 .hero-content {
     max-width: 1200px;
     margin: 0 auto;   
@@ -138,6 +148,17 @@ h1, h2, h3, h4 {
     max-width: 700px;
     margin: 0 auto 50px;
     text-align: center;
+}
+
+.services-image {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+.services-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px #0000005e;
 }
 
 .services .label {
@@ -220,6 +241,23 @@ h1, h2, h3, h4 {
     color: #d9e3ec;
 }
 
+.icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+    background-color: #f2c94c;
+    border-radius: 50%;
+    box-shadow: 0 6px 15px #00000033;
+}
+
+.icon img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
 .process {
     padding: 80px 40px;
     background-color: #f7f7f7;
